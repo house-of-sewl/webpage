@@ -1,6 +1,52 @@
 body {
+  background-color: grey;
+  color: white;
+}
+
+.title {
+  height: 100vh;
+  background-image: url("assets/title-image.png");
+  background-color: white;
+  background-size: cover;
   text-align: center;
 }
-.red-title {
-  color: red;
+
+.logo-row {
+  height: 75vh;
+}
+
+.img-fluid.title-logo {
+  max-height: 500px;
+}
+.section-header{
+  margin-top: 50px;
+}
+.about-split {
+  margin-top: 150px;
+  text-align: center;
+  min-height: 300px;
+}
+.about-split-text {
+  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.three-col {
+  text-align: left;
+  margin-top: 150px;
+}
+.three-col-img {
+  max-height: 125px;
+  margin-top: 50px;
+  display: block;
+  margin: auto;
+}
+.three-col-header {
+  text-align: center;
+  margin-top: 25px;
+}
+.three-col-text {
+  margin: 50px;
+  margin-top: 25px;
+  text-align: center;
 }
