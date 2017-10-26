@@ -5,6 +5,7 @@ body {
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
 }
 .section-header {
   color: #E2B21A;
@@ -34,16 +35,19 @@ h1.section-header {
 }
 .about-split {
   margin: 0 auto;
-  margin-top: 150px;
   text-align: center;
-  min-height: 400px;
+  min-height: 100vh;
+  border-bottom: 1px solid grey;
+  max-width: 90vw;
+}
+.about-row {
+  height: 100vh;
 }
 .about-split-text {
-  max-width: 500px;
   margin-top: 50px;
   margin-bottom: 100px;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 15  px;
 }
 .about-img {
   margin: 0 auto;
@@ -52,8 +56,10 @@ h1.section-header {
 .three-col {
   margin: 0 auto;
   margin-top: 150px;
+  padding-bottom: 150px;
   text-align: left;
   max-width: 90vw;
+  border-bottom: 1px solid grey;
 }
 .three-col-img {
   max-height: 125px;
@@ -74,11 +80,17 @@ h1.section-header {
   text-align: center;
 }
 .sign-up-row {
-  min-height: 300px;
+  min-height: 500px;
 }
 .sign-up-split {
-  margin-top: 150px;
   text-align: center;
+  max-width: 90vw;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+}
+
+.video-cont {
+  min-height: 500px;
 }
 .contact-icon {
   max-width: 60px;
