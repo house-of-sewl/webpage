@@ -31,7 +31,7 @@ $(document).ready(function() {
         var bv = $form.data('bootstrapValidator');
 
         // Use Ajax to submit form data
-        var url = 'https://script.google.com/macros/u/0/s/AKfycbyBWUyfOn7b2LsGcAt02Bd_wq6Bz6_BAMCIr0biGDPaa3a8T54Q/exec';
+        var url = 'http://cors.io/?u=https://script.google.com/macros/u/0/s/AKfycbyBWUyfOn7b2LsGcAt02Bd_wq6Bz6_BAMCIr0biGDPaa3a8T54Q/exec';
         var redirectUrl = 'index.html';
         // show the loading
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
