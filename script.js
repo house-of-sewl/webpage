@@ -34,19 +34,3 @@ $('a[href*="#"]')
       }
     }
   });
-
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/u/0/s/AKfycbyBWUyfOn7b2LsGcAt02Bd_wq6Bz6_BAMCIr0biGDPaa3a8T54Q/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject(),
-    success: function() {
-      // do something
-    }
-  });
-})
