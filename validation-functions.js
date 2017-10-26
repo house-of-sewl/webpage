@@ -34,7 +34,7 @@ $(document).ready(function() {
         var url = 'https://script.google.com/macros/u/0/s/AKfycbyBWUyfOn7b2LsGcAt02Bd_wq6Bz6_BAMCIr0biGDPaa3a8T54Q/exec';
         var redirectUrl = 'index.html';
         // show the loading
-        $('#test-form').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
+        $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
         var jqxhr = $.post(
           url,
           $form.serialize(),
