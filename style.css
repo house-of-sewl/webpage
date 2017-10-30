@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 
 body {
-  background-color: #1A1A1A;
-  color: white;
+  background-color: #FFFFFF;
+  color: #000000;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
@@ -13,14 +13,13 @@ body {
   text-transform: uppercase;
   font-size: 42pt;
   font-weight: 100;
-  margin-top: 50px;
 }
 h1.section-header {
   font-weight: 100;
 }
 .title {
   height: 100vh;
-  background-image: url("assets/title-image.png");
+  background-image: url("assets/title-image.jpg");
   background-color: white;
   background-size: cover;
   text-align: center;
@@ -32,16 +31,34 @@ h1.section-header {
 
 .img-fluid.title-logo {
   max-height: 500px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
 }
 .about-split {
   margin: 0 auto;
+  margin-top: 200px;
   text-align: center;
+  background-image: url("assets/about-picture.jpg");
+  background-size: cover;
   min-height: 100vh;
   border-bottom: 1px solid grey;
-  max-width: 90vw;
 }
 .about-row {
-  height: 100vh;
+  height: 50vh;
+  transform: translateY(50%);
+}
+.about-text-box {
+  padding: 0;
+}
+.white-background {
+  height: 120%;
+  width: 120%;
+  position: absolute;
+  transform: translateX(-8%) translateY(-10%);
+  z-index: -19;
+  background-color: white;
+  opacity: 0.9;
 }
 .about-split-text {
   margin-top: 30px;
@@ -49,15 +66,16 @@ h1.section-header {
   margin-right: 15px;
   font-weight: 400;
   font-size: 15pt;
+  max-width: 90%;
 }
 .about-img {
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 200px;
 }
 .three-col {
   margin: 0 auto;
-  margin-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 200px;
+  padding-bottom: 200px;
   text-align: left;
   max-width: 90vw;
   border-bottom: 1px solid grey;
@@ -66,7 +84,7 @@ h1.section-header {
   border-right: 1px solid grey;
 }
 .three-col-img {
-  max-height: 125px;
+  max-height: 150px;
   margin-top: 50px;
   padding-top: 5px;
   display: block;
@@ -75,13 +93,14 @@ h1.section-header {
 .three-col-header {
   text-align: center;
   margin-top: 25px;
-  font-weight: 200;
-  color: gold;
+  font-weight: 300;
+  color: #E2B21A;
   text-transform: uppercase;
 }
 .three-col-text {
   margin: 50px;
   margin-top: 25px;
+  font-size: 15pt;
   text-align: center;
 }
 .sign-up-row {
@@ -91,6 +110,7 @@ h1.section-header {
   text-align: center;
   max-width: 90vw;
   margin: 0 auto;
+    margin-top: 200px;
   border-bottom: 1px solid grey;
 }
 .sign-up-right {
