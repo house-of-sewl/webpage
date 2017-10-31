@@ -61,7 +61,7 @@ h1.section-header {
   transform: translateX(-8%) translateY(-10%);
   z-index: -19;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .about-split-text {
   margin-top: 30px;
@@ -139,25 +139,26 @@ h1.section-header {
   padding-right: 30px;
 }
 .sign-up-subheader {
+  margin-top: 8px;
   font-style: italic;
   font-weight: 200;
-  font-size: 10pt;
+  font-size: 15pt;
 }
 .sign-up-ul {
   list-style-type: none;
-  margin-left: 33%;
+  margin-left: 25%;
   text-align: left;
 }
 .sign-up-li {
   font-style: italic;
   font-weight: 200;
-  font-size: 10pt;
+  font-size: 13pt;
 }
 .partner-signup {
   margin-top: 200px;
 }
 .partner-signup-row {
-  height: 100vh;
+  height: auto;
 }
 .video-cont {
   visibility: hidden;
@@ -169,17 +170,41 @@ h1.section-header {
   width: 100%;
 }
 .partner-subheader {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.partner-text {
+  font-size: 15pt;
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.partner-iama {
 
 }
 .contact-info {
+  margin-top: 200px;
     height: 300px;
     background-color: black;
+}
+.email-label {
+  margin-top: 8px;
 }
 .contact-header {
   padding-top: 20px;
 }
 .contact-icon {
   max-width: 60px;
+}
+.partner-input-group {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.img-half {
+  width: 100%;
+  max-height: 100%;
 }
 #social-link {
   text-align: left;
@@ -201,6 +226,9 @@ h1.section-header {
     }
     .white-background {
       transform: translateX(-15%) translateY(-5%);
+    }
+    .partner-text-col {
+      margin-top: 30px;
     }
 }
 
