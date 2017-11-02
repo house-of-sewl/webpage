@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#test-form').bootstrapValidator({
+    $('#user-form').bootstrapValidator({
         //submitButtons: '#postForm',
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
         feedbackIcons: {
@@ -32,7 +32,7 @@ $(document).ready(function() {
 
         // Use Ajax to submit form data
         var url = 'https://script.google.com/macros/s/AKfycbyBWUyfOn7b2LsGcAt02Bd_wq6Bz6_BAMCIr0biGDPaa3a8T54Q/exec';
-        var redirectUrl = 'index.html#test-form';
+        var redirectUrl = 'index.html#user-form';
         // show the loading
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
         var jqxhr = $.post(
