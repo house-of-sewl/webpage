@@ -34,3 +34,5 @@ $('a[href*="#"]')
       }
     }
   });
+
+$('body').scrollspy({ target: '#navbar' })
