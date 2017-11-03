@@ -255,6 +255,9 @@ footer {
       margin: 0 auto;
       width: 70vw;
     }
+    .partner-text-col {
+      margin-top: 50px;
+    }
     .white-background {
       width: 100%;
       transform: translateX(-5%) translateY(-5%);
