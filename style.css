@@ -104,7 +104,8 @@ h1.section-header {
   text-transform: uppercase;
 }
 .mockup-img {
-  max-width: 150px;
+  width: 400px;
+  transform: translateX(-1%);
 }
 .three-col-text {
   margin: 50px;
